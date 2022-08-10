@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header-wrapper {
+  height: 140px;
+  background-color: #09136bae;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.left-column {
+  display: flex;
+  align-items: center;
+}
+
+.header-styles {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1em; 
+}
+
+.center-column {
+  width: 500px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 42px;
+}
+.links {
+  color:#ffffff;
+  font-size: x-large;
+}
+.logo img {
+  width: auto;
+  height: 100%;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  width: 70px;
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #cbcbcb;
+  letter-spacing: 2px;
+}
+
+.right-column {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.icon-mr {
+  margin-right: 8px;
+}
+
+.icon-ml {
+  margin-left: 8px;
+}
+
+.main-section {
+  background-image: url(assets/nightsky.jpg);
+  padding: 100px;
+  height: auto;
+  background-attachment: initial;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-heading {
+  padding: 1px 20px;
+  /* background-color: #67edfb; */
+  color: #cbcbcb;
+  width: auto;
+  border-radius: 2px;
+  text-align: center;
+}
+.middle-heading {
+    /* background-color: #cbcbcc; */
+    color: #cbcbcb;
+    width: auto;
+    border-radius: 2px;
+    text-align: center;
+}
+.bottom-heading {
+  /* background-color: #67edfb; */
+  color: #cbcbcb;
+  padding: 1px 20px;
+  margin-top: 15px;
+  width: auto;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.features-section {
+  height: auto;
+  background-image: url(assets/sunhand.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #67edfb;
+  border-top: 10px solid white;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.columns-wrapper {
+  height: auto;
+  /* background-image: url(assets/nightsky.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #67edfb; */
+  border-top: 10px solid white;
+  color: #ffffff;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 42px;
+  text-align: center;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.column:hover {
+  border-bottom: 5px solid #ffffff;
+}
+
+.column-icon {
+  font-size: 10em;
+}
+
+.column-title {
+  font-size: 1.5em;
+  font-weight: 900;
+  height: 50px;
+  transition: 1s;
+}
+
+.column-title:hover {
+  letter-spacing: 1px;
+}
+
+.column-content {
+  letter-spacing: 2px;
+}
+
+.features-bottom {
+  height: auto;
+  background-image: url(assets/nightsky.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #67edfb;
+  border-top: 10px solid white;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
